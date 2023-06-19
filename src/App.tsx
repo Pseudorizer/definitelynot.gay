@@ -1,7 +1,7 @@
 function App() {
 
-    const text = (text: string, size = "7") => {
-        return <h1 className={`text-${size}xl font-bold text-center`}>{text}</h1>
+    const text = (text: string, size = "text-7xl") => {
+        return <h1 className={`${size} font-bold text-center`}>{text}</h1>
     }
 
     return (
@@ -9,7 +9,7 @@ function App() {
             {text('the person who sent YOU this')}
             {text('wants you to know')}
             {text('THEY ARE NOT')}
-            {text('GAY', '9')}
+            {text('GAY', 'text-9xl')}
             {text('100% STRAIGHT')}
             {text('as STRAIGHT an an arrow')}
             {text('no POSSIBILITY of them being GAY')}
@@ -19,7 +19,7 @@ function App() {
             {text('and it\'s that this person CANNOT BE GAY')}
             {text('when ALIENS communicate with us')}
             {text('they\'ll include the fact that this person')}
-            {text('IS NOT GAY', '9')}
+            {text('IS NOT GAY', 'text-9xl')}
             {text('it is a universal constant like prime numbers')}
             {text('still not convinced?')}
             {text('i just got my gaydar recalibrated')}
